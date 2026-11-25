@@ -1,13 +1,16 @@
 export const profileInfo = {
   name: "Akshata Basutkar",
-  displayName: "Aksh",
-  role: "Final-Year Computer Science Engineering Student | DevOps & Cloud Computing Enthusiast",
-  location: "Karnataka, India",
+  displayName: "Akshata Basutkar",
+  role: "Final-Year Computer Science Engineering Student | DevOps , AI & Cloud Computing Enthusiast",
+  location: "Hubballi, Karnataka, India",
   tagline:
-    "Focused on DevOps workflows, Cloud Computing, AWS,CI/CD Pipelines, automation, and reliable deployment practices.",
+    "Focused on DevOps workflows, Cloud Computing, CI/CD Pipelines, automation, and reliable system workflows.",
   githubUrl: "https://github.com/Akshata-B319",
-  linkedinUrl: "",
-  email: "",
+  linkedinUrl: "https://www.linkedin.com/in/akshata-basutkar-711653379",
+  email: "akshatabasutkar0.com",
+  phone: "+91 7019 64XX19",
+  resumeUrl: "/resume.pdf", // Place resume.pdf in client/public/resume.pdF
+  photoUrl: "/aksh.image.jpeg",
 };
 
 export const aboutMe = {
@@ -21,19 +24,26 @@ export const aboutMe = {
 
 export const technicalSkills = [
   {
-    category: "Frontend & Web",
-    items: ["HTML", "CSS", "JavaScript", "React.js"],
+    category: "Devops & CI/CD",
+    items: ["Linux", "Git&GitHub", "Docker" , "CI/CD" ],
   },
   {
-    category: "Backend & Database",
-    items: ["Node.js", "Express.js", "MongoDB", "REST APIs"],
+    category: "Cloud & Infrastructure",
+    items: ["Cloud Computing"],
   },
   {
-    category: "Tools, ML & Workflows",
-    items: ["Git", "GitHub", "Python", "CNN / XGBoost / Random Forest", "SPRT"],
+    category: "Programming & Scripting",
+    items: [
+      "Python"
+    ],
+  },
+  {
+    category: "Frontend & Backend",
+    items: [
+      "HTML & CSS",
+    ],
   },
 ];
-
 export const projects = [
   {
     id: "paddy-leaf-disease",
@@ -65,6 +75,16 @@ export const projects = [
     repoUrl: "",
     demoUrl: "",
   },
+  {
+    id: "full-stack-portfolio",
+    title: "MERN Stack Interactive Portfolio & Contact API",
+    status: "Completed",
+    summary:
+      "React + Vite frontend paired with Node.js, Express, and MongoDB Atlas to store contact form inquiries reliably.",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    repoUrl: "https://github.com/Akshata-B319/fullstack-portfolio",
+    demoUrl: "",
+  },
 ];
 
 export const education = [
@@ -77,6 +97,41 @@ export const education = [
   },
 ];
 
-export const internshipsAndExperience = [];
+export const internshipsAndExperience = [
+  {
+    role: "Cloud & Python Virtual Intern",
+    organization: "Innovate Ed Labs",
+    period: "2026",
+    summary:
+      "Completed training and practical tasks covering Python and cloud fundamentals across cloud platforms.",
+  },
+  {
+    role: "Full Stack Web Development Virtual Intern",
+    organization: "RabTech Academy",
+    period: "2026",
+    summary:
+      "Worked on web development fundamentals, building structured UI components and backend integrations.",
+  },
+];
 
-export const certifications = [];
+export const certifications = [
+  {
+    title: "Artificial Intelligence Fundamentals",
+    issuer: "IBM SkillsBuild (Credly)",
+    year: "2026",
+    fileUrl: "/certificates/cert-IBM.pdf",
+  },
+  {
+    title: "Cloud Computing",
+    issuer: "SWAYAM-NPTEL",
+    year: "2026",
+   fileUrl: "/certificates/cert-cc.pdf", 
+
+  },
+  {
+    title: "Introduction to Machine Learning",
+    issuer: "SWAYAM-NPTEL",
+    year: "2026",
+    fileUrl: "/certificates/cert-machine-learning.pdf",
+  },
+];
